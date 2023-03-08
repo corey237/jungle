@@ -1,7 +1,11 @@
-<section class="cart-show">
-
-  <header class="page-header">
-    <h1>My Cart</h1>
+<section class="cart-show">  
+<header class="page-header">
+  <% if enhanced_cart.length == 0 %>
+  <div class="alert alert-danger" role="alert">
+    <p class="alert-link">Cart is empty. <a href="/" class="alert-link">Return to home page</a></p>
+  </div>
+  <% else %>
+  <h1>My Cart</h1>
   </header>
 
   <div class="panel panel-default items">
@@ -48,5 +52,5 @@
       <% end %>
     </div>
   </div>
-
+  <% end %>
 </section>
