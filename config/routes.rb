@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  namespace :admin do
+    get 'categories' => 'categories#index'
+
+    resources :categories, except: [:edit, :update, :show]
+  end
   root to: 'products#index'
   get '/about' => 'about#index'
 
