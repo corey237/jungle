@@ -1,0 +1,22 @@
+<h1>Signup!</h1>
+<% if (@error_message != nil) %>
+  <h2><%=@error_message%></h2>
+<% end %>
+<%= form_for :user, url: '/users' do |f| %>
+  <div>
+    Name: <%= f.text_field :name%>
+  </div>
+  <div>
+    Email: <%= f.text_field :email %>
+  </div>
+  <div>
+    Password: <%= f.password_field :password %>
+  </div>
+  <div>
+    Password Confirmation: <%= f.password_field :password_confirmation %>
+  </div>
+  <div>
+    <%= f.submit "Submit" %>
+  </div>
+
+<% end %>
