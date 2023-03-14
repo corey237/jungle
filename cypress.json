@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:8000",
+  "screenshotsFolder": "tmp/cypress_screenshots",
+  "trashAssetsBeforeRuns": false,
+  "videosFolder": "tmp/cypress_videos",
+  "viewportHeight": 720,
+  "viewportWidth": 1280
+}
