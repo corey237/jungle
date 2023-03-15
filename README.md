@@ -23,9 +23,26 @@ Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
+## Screenshots
+
+1. Home/Landing Page
+
+![Home/Landing Page](https://github.com/corey237/jungle/blob/master/img/home_page.png?raw=true)
+
+2. Order Checkout
+
+![Checkout Page](https://github.com/corey237/jungle/blob/master/img/checkout_page.png?raw=true)
+
+3. Order Confirmation
+
+![Order Confirmation Page](https://github.com/corey237/jungle/blob/master/img/order_confirmation.png?raw=true)
+
+
+
 ## Dependencies
 
 - Rails 6.1 [Rails Guide](http://guides.rubyonrails.org/v6.1/)
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
